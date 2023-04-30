@@ -12,8 +12,8 @@ def send_notification_email(email, msg):
         balance (float): balance to include in the notification email.
     """
 
-    email_sender = 'application.supp2023@gmail.com'
-    email_password = 'nsehfysodwwtcfhj'
+    email_sender = '#'
+    email_password = '#'
     email_receiver = email
     subject = 'Update from Stock Market '
     body = f"{msg}"
